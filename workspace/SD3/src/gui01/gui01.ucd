@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" id="gui01" metadata="uml2-1.0" initialized="true" scrolledY="2731" tag="1000" key="3230303631303036205344332F3130303036313739">
+  <children xsi:type="editmodel:ClassEditModel" name="ShipFactory" location="343,3041" size="218,115" id="gui01/ShipFactory" runTimeClassModel="createShip(Ljava.lang.String;),ShipFactory()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="195,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ShipFactory" id="gui01/ShipFactory#ShipFactory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createShip" id="gui01/ShipFactory#createShip(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PlanetFactory" location="50,3041" size="243,133" id="gui01/PlanetFactory" runTimeClassModel="PlanetFactory(),createPlanet(Ljava.lang.String;),createPlanet()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="220,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PlanetFactory" id="gui01/PlanetFactory#PlanetFactory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createPlanet" id="gui01/PlanetFactory#createPlanet(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createPlanet" id="gui01/PlanetFactory#createPlanet()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MyGUI" location="554,2063" size="187,583" id="gui01/MyGUI" runTimeClassModel="main([Ljava.lang.String;),testGrid,brick,getInventory_1(),jButton,updateScreen(),imageDisplayed,getTestGrid(),getLoadGame(),playerAlive,serialVersionUID,jContentPane,jLabel,getJContentPane(),saveGame,getSaveGame(),loadGame,initialize(),jBList,getJButton(),MyGUI(),inventory_1,imageList,calculateScore(),newGame,updateGrid(),jPList,getNewGame()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,270">
+      <children xsi:type="editmodel:AttributeEditModel" name="brick" id="gui01/MyGUI#brick"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageDisplayed" id="gui01/MyGUI#imageDisplayed"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageList" id="java.awt/Image@imageList+gui01/MyGUI@|java.awt/Image#imageList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="inventory_1" id="gui01/MyGUI#inventory_1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jBList" id="gui01/MyGUI#jBList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton" id="gui01/MyGUI#jButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jContentPane" id="gui01/MyGUI#jContentPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="gui01/MyGUI#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jPList" id="javax.swing/JPanel@jPList+gui01/MyGUI@|javax.swing/JPanel#jPList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="loadGame" id="gui01/MyGUI#loadGame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="newGame" id="gui01/MyGUI#newGame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerAlive" id="gui01/MyGUI#playerAlive"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="saveGame" id="gui01/MyGUI#saveGame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="gui01/MyGUI#serialVersionUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="testGrid" id="gui01/MyGUI#testGrid"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,234">
+      <children xsi:type="editmodel:MethodEditModel" name="MyGUI" id="gui01/MyGUI#MyGUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateScore" id="gui01/MyGUI#calculateScore()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInventory_1" id="gui01/MyGUI#getInventory_1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJButton" id="gui01/MyGUI#getJButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJContentPane" id="gui01/MyGUI#getJContentPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLoadGame" id="gui01/MyGUI#getLoadGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNewGame" id="gui01/MyGUI#getNewGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSaveGame" id="gui01/MyGUI#getSaveGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestGrid" id="gui01/MyGUI#getTestGrid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="gui01/MyGUI#initialize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gui01/MyGUI#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateGrid" id="gui01/MyGUI#updateGrid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateScreen" id="gui01/MyGUI#updateScreen()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="311,3242" size="148,97" id="gui01/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gui01/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TradeGUI" location="50,2063" size="202,709" id="gui01/TradeGUI" runTimeClassModel="main([Ljava.lang.String;),itemName(I),planetInventory,initialize(I),jButton,updateListBox(),planetText,planetNum,checkInputs(),calculatePurchase(),getJList1(),playerText,playerInventory,serialVersionUID,updateOfferPlay(),jContentPane,getPlanetText(),updateOfferPlan(),selectedItem(),playerLabel,planetLabel,jList1,jLabel,getJContentPane(),getPlayerText(),selectedPlanetIndex,jList,jLabel11,selectedPlayerIndex,getJList(),jLabel1,TradeGUI(I),getJButton(),doTransaction(),g1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,324">
+      <children xsi:type="editmodel:AttributeEditModel" name="g1" id="gui01/TradeGUI#g1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton" id="gui01/TradeGUI#jButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jContentPane" id="gui01/TradeGUI#jContentPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="gui01/TradeGUI#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="gui01/TradeGUI#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel11" id="gui01/TradeGUI#jLabel11"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList" id="gui01/TradeGUI#jList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList1" id="gui01/TradeGUI#jList1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetInventory" id="gui01/TradeGUI#planetInventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetLabel" id="gui01/TradeGUI#planetLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetNum" id="gui01/TradeGUI#planetNum"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetText" id="gui01/TradeGUI#planetText"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerInventory" id="gui01/TradeGUI#playerInventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerLabel" id="gui01/TradeGUI#playerLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerText" id="gui01/TradeGUI#playerText"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selectedPlanetIndex" id="gui01/TradeGUI#selectedPlanetIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selectedPlayerIndex" id="gui01/TradeGUI#selectedPlayerIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="gui01/TradeGUI#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,306">
+      <children xsi:type="editmodel:MethodEditModel" name="TradeGUI" id="gui01/TradeGUI#TradeGUI(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculatePurchase" id="gui01/TradeGUI#calculatePurchase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkInputs" id="gui01/TradeGUI#checkInputs()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doTransaction" id="gui01/TradeGUI#doTransaction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJButton" id="gui01/TradeGUI#getJButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJContentPane" id="gui01/TradeGUI#getJContentPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList" id="gui01/TradeGUI#getJList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList1" id="gui01/TradeGUI#getJList1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlanetText" id="gui01/TradeGUI#getPlanetText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayerText" id="gui01/TradeGUI#getPlayerText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="gui01/TradeGUI#initialize(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="itemName" id="gui01/TradeGUI#itemName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gui01/TradeGUI#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectedItem" id="gui01/TradeGUI#selectedItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateListBox" id="gui01/TradeGUI#updateListBox()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateOfferPlan" id="gui01/TradeGUI#updateOfferPlan()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateOfferPlay" id="gui01/TradeGUI#updateOfferPlay()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Game" location="497,1448" size="310,619" id="gui01/Game" runTimeClassModel="tradeCivilian(II),moveShips(),noPlanets,move(II),newPosition(IILjava.lang.String;),Game(),display(Ljava.lang.String;),shipBoard,pfactory,generator,uniqueInstance,enemyBoard,planetList,prevGrid(IILjava.lang.String;),newGame(),civiShip,getInstance(),playerShip,serializeObject(),noEnemies,checkSpace(),civiBoard,tradePlanet(II),sfactory,planetBoard,undoTurn(),deserizaliseObject(),enemyShip,fightResult(II),noCivilians">
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,270">
+      <children xsi:type="editmodel:AttributeEditModel" name="civiBoard" id="gui01/Game#civiBoard"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="civiShip" id="gui01/Ship@civiShip+gui01/Game@|gui01/Ship#civiShip"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="enemyBoard" id="gui01/Game#enemyBoard"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="enemyShip" id="gui01/Ship@enemyShip+gui01/Game@|gui01/Ship#enemyShip"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="generator" id="gui01/Game#generator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noCivilians" id="gui01/Game#noCivilians"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noEnemies" id="gui01/Game#noEnemies"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noPlanets" id="gui01/Game#noPlanets"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pfactory" id="gui01/Game#pfactory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetBoard" id="gui01/Game#planetBoard"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetList" id="gui01/Planet@planetList+gui01/Game@|gui01/Planet#planetList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerShip" id="gui01/Game#playerShip"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sfactory" id="gui01/Game#sfactory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shipBoard" id="gui01/Game#shipBoard"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="uniqueInstance" id="gui01/Game#uniqueInstance"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,270">
+      <children xsi:type="editmodel:MethodEditModel" name="Game" id="gui01/Game#Game()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkSpace" id="gui01/Game#checkSpace()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deserizaliseObject" id="gui01/Game#deserizaliseObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="display" id="gui01/Game#display(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fightResult" id="gui01/Game#fightResult(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="gui01/Game#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="move" id="gui01/Game#move(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveShips" id="gui01/Game#moveShips()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newGame" id="gui01/Game#newGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newPosition" id="gui01/Game#newPosition(IILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prevGrid" id="gui01/Game#prevGrid(IILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="serializeObject" id="gui01/Game#serializeObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tradeCivilian" id="gui01/Game#tradeCivilian(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tradePlanet" id="gui01/Game#tradePlanet(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="undoTurn" id="gui01/Game#undoTurn()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ItemFactory" location="50,2822" size="310,115" id="gui01/ItemFactory" runTimeClassModel="createItem(Ljava.lang.String;I),ItemFactory()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ItemFactory" id="gui01/ItemFactory#ItemFactory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createItem" id="gui01/ItemFactory#createItem(Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NameFactory" location="50,3242" size="211,97" id="gui01/NameFactory" runTimeClassModel="createName(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,18">
+      <children xsi:type="editmodel:MethodEditModel" name="createName" id="gui01/NameFactory#createName(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ButtonListener" location="410,2822" size="209,169" id="gui01/ButtonListener" runTimeClassModel="ButtonListener(II),yPos,xPos,mouseClicked(Ljava.awt.event.MouseEvent;),g1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="g1" id="gui01/ButtonListener#g1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="xPos" id="gui01/ButtonListener#xPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="yPos" id="gui01/ButtonListener#yPos"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="186,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ButtonListener" id="gui01/ButtonListener#ButtonListener(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="gui01/ButtonListener#mouseClicked(Ljava.awt.event.MouseEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Mover" location="611,3041" size="166,169" id="gui01/Mover" runTimeClassModel="theShips,addShip(Lgui01.Ship;),undoTurn(),moveShips(),clearList()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="theShips" id="gui01/Ship@theShips+gui01/Mover@|gui01/Ship#theShips"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,72">
+      <children xsi:type="editmodel:MethodEditModel" name="addShip" id="gui01/Mover#addShip(Lgui01.Ship;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearList" id="gui01/Mover#clearList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveShips" id="gui01/Mover#moveShips()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="undoTurn" id="gui01/Mover#undoTurn()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CiviGUI" location="302,2063" size="202,709" id="gui01/CiviGUI" runTimeClassModel="main([Ljava.lang.String;),itemName(I),initialize(I),updateListBox(),jButton,planetText,checkInputs(),calculatePurchase(),getJList1(),playerInventory,playerText,selectedCiviIndex,serialVersionUID,updateOfferPlay(),getPlanetText(),jContentPane,updateOfferPlan(),selectedItem(),playerLabel,planetLabel,jList1,jLabel,getJContentPane(),getPlayerText(),jList,getJList(),jLabel11,selectedPlayerIndex,jLabel1,getJButton(),CiviGUI(I),civiNum,doTransaction(),g1,civiInventory">
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,324">
+      <children xsi:type="editmodel:AttributeEditModel" name="civiInventory" id="gui01/CiviGUI#civiInventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="civiNum" id="gui01/CiviGUI#civiNum"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="g1" id="gui01/CiviGUI#g1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton" id="gui01/CiviGUI#jButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jContentPane" id="gui01/CiviGUI#jContentPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="gui01/CiviGUI#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="gui01/CiviGUI#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel11" id="gui01/CiviGUI#jLabel11"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList" id="gui01/CiviGUI#jList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList1" id="gui01/CiviGUI#jList1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetLabel" id="gui01/CiviGUI#planetLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="planetText" id="gui01/CiviGUI#planetText"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerInventory" id="gui01/CiviGUI#playerInventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerLabel" id="gui01/CiviGUI#playerLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerText" id="gui01/CiviGUI#playerText"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selectedCiviIndex" id="gui01/CiviGUI#selectedCiviIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selectedPlayerIndex" id="gui01/CiviGUI#selectedPlayerIndex"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="gui01/CiviGUI#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,306">
+      <children xsi:type="editmodel:MethodEditModel" name="CiviGUI" id="gui01/CiviGUI#CiviGUI(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculatePurchase" id="gui01/CiviGUI#calculatePurchase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkInputs" id="gui01/CiviGUI#checkInputs()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doTransaction" id="gui01/CiviGUI#doTransaction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJButton" id="gui01/CiviGUI#getJButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJContentPane" id="gui01/CiviGUI#getJContentPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList" id="gui01/CiviGUI#getJList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList1" id="gui01/CiviGUI#getJList1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlanetText" id="gui01/CiviGUI#getPlanetText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayerText" id="gui01/CiviGUI#getPlayerText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="gui01/CiviGUI#initialize(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="itemName" id="gui01/CiviGUI#itemName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="gui01/CiviGUI#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectedItem" id="gui01/CiviGUI#selectedItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateListBox" id="gui01/CiviGUI#updateListBox()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateOfferPlan" id="gui01/CiviGUI#updateOfferPlan()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateOfferPlay" id="gui01/CiviGUI#updateOfferPlay()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Civilian" location="163,845" size="90,97" id="gui01/Civilian" runTimeClassModel="Civilian()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Civilian" id="gui01/Civilian#Civilian()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Ship&lt;-gui01/Civilian" source="//@children.11" target="//@children.14/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="Ship" location="85,50" size="268,763" id="gui01/Ship" runTimeClassModel="getMoney(),setPrev([I),shipID,getType(),Ship(I),getKills(),getItem(Ljava.lang.String;),getName(),getPrev(),setCurr([I),setMoney(I),setTech(I),getCurr(),name,money,getPMoved(),kills,prevPos,removeItem(Ljava.lang.String;I),setName(Ljava.lang.String;),getInventory(),addKill(I),playerMoved,setPMoved(Z),moveShip(),getID(),health,shiptype,tech,setType(Ljava.lang.String;),currPos,getTech(),getHealth(),addItem(Ljava.lang.String;I),inventory,setID(I),undoTurn(),setHealth(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="currPos" id="gui01/Ship#currPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="health" id="gui01/Ship#health"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="inventory" id="gui01/Items@inventory+gui01/Ship@|gui01/Items#inventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="kills" id="gui01/Ship#kills"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="money" id="gui01/Ship#money"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="gui01/Ship#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playerMoved" id="gui01/Ship#playerMoved"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prevPos" id="gui01/Ship#prevPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shipID" id="gui01/Ship#shipID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shiptype" id="gui01/Ship#shiptype"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tech" id="gui01/Ship#tech"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="245,486">
+      <children xsi:type="editmodel:MethodEditModel" name="Ship" id="gui01/Ship#Ship(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addItem" id="gui01/Ship#addItem(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addKill" id="gui01/Ship#addKill(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurr" id="gui01/Ship#getCurr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHealth" id="gui01/Ship#getHealth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="gui01/Ship#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInventory" id="gui01/Ship#getInventory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getItem" id="gui01/Ship#getItem(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKills" id="gui01/Ship#getKills()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMoney" id="gui01/Ship#getMoney()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="gui01/Ship#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPMoved" id="gui01/Ship#getPMoved()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrev" id="gui01/Ship#getPrev()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTech" id="gui01/Ship#getTech()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="gui01/Ship#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveShip" id="gui01/Ship#moveShip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeItem" id="gui01/Ship#removeItem(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPrev" id="gui01/Ship#setPrev([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHealth" id="gui01/Ship#setHealth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setID" id="gui01/Ship#setID(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMoney" id="gui01/Ship#setMoney(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="gui01/Ship#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPMoved" id="gui01/Ship#setPMoved(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCurr" id="gui01/Ship#setCurr([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTech" id="gui01/Ship#setTech(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setType" id="gui01/Ship#setType(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="undoTurn" id="gui01/Ship#undoTurn()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Enemy" location="283,845" size="151,97" id="gui01/Enemy" runTimeClassModel="Enemy(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Enemy" id="gui01/Enemy#Enemy(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Ship&lt;-gui01/Enemy" source="//@children.13" target="//@children.14/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Player" location="50,845" size="83,97" id="gui01/Player" runTimeClassModel="Player()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="60,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Player" id="gui01/Player#Player()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.13/@sourceConnections.0" autoLocated="true" id="gui01/Ship&lt;-gui01/Player" source="//@children.14" target="//@children.12" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,763" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.18/@sourceConnections.0" name="Planet" location="138,1448" size="268,385" id="gui01/Planet" runTimeClassModel="getMoney(),getInventory(),tech,getItem(Ljava.lang.String;),getName(),getCombatValue(),getTech(),setMoney(I),setCombatValue(I),setTech(I),addItem(Ljava.lang.String;I),Planet(),inventory,name,money,removeItem(Ljava.lang.String;I),combatValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="combatValue" id="gui01/Planet#combatValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="inventory" id="gui01/Items@inventory+gui01/Planet@|gui01/Items#inventory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="money" id="gui01/Planet#money"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="gui01/Planet#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tech" id="gui01/Planet#tech"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="245,216">
+      <children xsi:type="editmodel:MethodEditModel" name="Planet" id="gui01/Planet#Planet()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addItem" id="gui01/Planet#addItem(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCombatValue" id="gui01/Planet#getCombatValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInventory" id="gui01/Planet#getInventory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getItem" id="gui01/Planet#getItem(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMoney" id="gui01/Planet#getMoney()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="gui01/Planet#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTech" id="gui01/Planet#getTech()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeItem" id="gui01/Planet#removeItem(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCombatValue" id="gui01/Planet#setCombatValue(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMoney" id="gui01/Planet#setMoney(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTech" id="gui01/Planet#setTech(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Forge" location="366,1865" size="81,97" id="gui01/Forge" runTimeClassModel="Forge()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Forge" id="gui01/Forge#Forge()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Planet&lt;-gui01/Forge" source="//@children.16" target="//@children.18/@sourceConnections.0" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Economic" location="232,1865" size="104,97" id="gui01/Economic" runTimeClassModel="Economic()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Economic" id="gui01/Economic#Economic()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Planet&lt;-gui01/Economic" source="//@children.17" target="//@children.18/@sourceConnections.0" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Military" location="50,1865" size="152,97" id="gui01/Military" runTimeClassModel="Military(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Military" id="gui01/Military#Military(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.17/@sourceConnections.0 //@children.16/@sourceConnections.0" autoLocated="true" id="gui01/Planet&lt;-gui01/Military" source="//@children.18" target="//@children.15" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,384" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Luxesium" location="50,1301" size="162,97" id="gui01/Luxesium" runTimeClassModel="Luxesium(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Luxesium" id="gui01/Luxesium#Luxesium(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.22/@sourceConnections.0 //@children.23/@sourceConnections.0 //@children.21/@sourceConnections.0" autoLocated="true" id="gui01/Items&lt;-gui01/Luxesium" source="//@children.19" target="//@children.20" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,259" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0" name="Items" location="308,992" size="185,259" id="gui01/Items" runTimeClassModel="getValue(),getName(),Items(I),amount,setName(Ljava.lang.String;),name,value,setValue(I),getAmount(),setAmount(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="amount" id="gui01/Items#amount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="gui01/Items#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="gui01/Items#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Items" id="gui01/Items#Items(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmount" id="gui01/Items#getAmount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="gui01/Items#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="gui01/Items#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAmount" id="gui01/Items#setAmount(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="gui01/Items#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="gui01/Items#setValue(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Oxymite" location="599,1301" size="155,97" id="gui01/Oxymite" runTimeClassModel="Oxymite(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Oxymite" id="gui01/Oxymite#Oxymite(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Items&lt;-gui01/Oxymite" source="//@children.21" target="//@children.19/@sourceConnections.0" targetEnd="//@children.21/@sourceConnections.0/@children.1" sourceEnd="//@children.21/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Solil" location="242,1301" size="135,97" id="gui01/Solil" runTimeClassModel="Solil(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Solil" id="gui01/Solil#Solil(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Items&lt;-gui01/Solil" source="//@children.22" target="//@children.19/@sourceConnections.0" targetEnd="//@children.22/@sourceConnections.0/@children.1" sourceEnd="//@children.22/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Fibresium" location="407,1301" size="162,97" id="gui01/Fibresium" runTimeClassModel="Fibresium(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Fibresium" id="gui01/Fibresium#Fibresium(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="gui01/Items&lt;-gui01/Fibresium" source="//@children.23" target="//@children.19/@sourceConnections.0" targetEnd="//@children.23/@sourceConnections.0/@children.1" sourceEnd="//@children.23/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

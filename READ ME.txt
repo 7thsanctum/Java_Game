@@ -1,0 +1,16 @@
+Student Matric - 10006179
+-------------------------
+
+This is the coursework submission for SET09101. Java coursework for John Owens.
+
+I have included a Runnable JAR file as well as a Non-Runnable JAR for your preference as well as including all of the class files in the workspace folder.
+
+I have also included two use case diagrams. One was modelled with the Eclipse at university and the other was modelled at home with a different application.
+
+Both contain the same classes and only have minor aesthetic differences.
+
+The report is labelled SD3.docx
+
+Thanks for the consideration.
+
+10006179
